@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  
+  --font-bold: bold;
+  --text-sm: 12px;
+  --text-lg: 16px;
+
+  --background: #333333;
+  --background-button: #F2F2F2;
+
+  --primary-blue: #2F80ED;
+  --primary-dark: #4F4F4F;
+  --primary-grey: #828282;
+  --primary-light: #E0E0E0;
+
+  --indicator-orange: #F8B76B;
+  --indicator-blue: #8785FF;
+  --indicator-red: #EB5757;
+  --indicator-yellow: #F2C94C;
+
+  --chats-light-orange: #FCEED3;
+  --chats-orange: #E5A443;
+  --chats-light-purple: #EEDCFF;
+  --chats-purple: #9B51E0;
+  --chats-light-green: #D2F2EA;
+  --chats-green: #43B78D;
+
+  --stickers-1: #E9F3FF;
+  --stickers-2: #FDCFA4;
+  --stickers-3: #F9E9C3;
+  --stickers-4: #AFEBDB;
+  --stickers-5: #CBF1C2;
+  --stickers-6: #CFCEF9;
+  --stickers-7: #F9E0FD;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+button:focus, input {
+  outline: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
